@@ -1,8 +1,8 @@
-# 💳 PayGuard Transaction API
+# PayGuard Transaction API
 
 A Spring Boot backend application that processes financial transactions with validation and business rules.
 
-## 🚀 Features
+## Features
 
 * Process deposits, withdrawals, and transfers
 * Input validation using Spring Validation
@@ -11,7 +11,7 @@ A Spring Boot backend application that processes financial transactions with val
 * Proper HTTP status handling (201, 400, 409, 422)
 * In-memory balance tracking
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * Java
 * Spring Boot
@@ -19,7 +19,7 @@ A Spring Boot backend application that processes financial transactions with val
 * Spring Data JPA
 * H2 Database
 
-## 📌 API Endpoint
+## API Endpoint
 
 ### POST /api/process
 
@@ -34,21 +34,21 @@ Example request:
 }
 ```
 
-## ✅ Example Responses
+## Example Responses
 
 * 201 Created → successful transaction
 * 400 Bad Request → invalid input
 * 409 Conflict → self-transfer
 * 422 Unprocessable Entity → insufficient balance
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone repo
 2. Open in IntelliJ
 3. Run `TransactionApiApplication`
 4. Send POST requests to `http://localhost:8080/api/process`
 
-## 📚 What I Learned
+## What I Learned
 
 * Building REST APIs with Spring Boot
 * Layered architecture (Controller, Service, Repository)
